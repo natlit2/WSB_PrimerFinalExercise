@@ -1,0 +1,69 @@
+.boddyWrapper{
+    background-color: grey;
+   grid-template-columns: auto 2fr 2fr 100px;
+   grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    display: grid;
+    height : 500px;
+    
+    grid-gap: 10px;
+}
+
+.sideBar {
+    background-color: blue;
+    grid-column: 1/1;
+    grid-row: 1/4;
+    
+}
+
+.headerWrapper{
+    background-color: aliceblue;
+    
+}
+
+.navBar {
+    background-color: burlywood;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  .block {
+    width: 100px;
+  }   
+
+
+
+.contentarea1{
+    background-color: rgb(112, 179, 12);
+    
+}
+
+.content1Pic{
+    background-color: pink;
+    grid-column: 3/5;
+    
+}
+
+
+.contentarea2 {
+    background-color: yellow;
+    grid-column: 2/4;
+}
+
+.content2Pic{
+    background-color: bisque;
+}
+.contentarea3 {
+    background-color: lightseagreen;
+    grid-column: 3/5;
+
+}
+.footerWrapper {
+    background-color: brown;
+}
+ .content3Pic {
+    background-color: blueviolet;
+    
+}
